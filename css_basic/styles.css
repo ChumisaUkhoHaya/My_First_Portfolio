@@ -1,4 +1,10 @@
 /* Apply flexbox to body and main */
+.logo {
+    font-size: 2em; /* Adjust the font size as desired */
+    color: #ffffff; /* Example color */
+    margin-right: 10px; /* Add some spacing between the logo and the next item */
+}
+
 body {
     display: flex;
     flex-direction: column; /* Stack header, main, and footer vertically */
